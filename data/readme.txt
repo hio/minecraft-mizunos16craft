@@ -1,11 +1,11 @@
-Mizuno's 16 Craft_1.10
+Mizuno's 16 Craft_1.11 (非公式版)
 
 解像度：16x
-対応バージョン：1.10.x
-制作者： Mizuno
-配布ページURL：http://mizunomcmemo.blogspot.jp/p/resourcepack.html
-               http://forum.minecraftuser.jp/viewtopic.php?f=14&t=30945
-最終更新日:2016/6/18
+対応バージョン：1.11.x
+オリジナル版制作者： Mizuno
+オリジナル版配布ページURL：http://mizunomcmemo.blogspot.jp/p/resourcepack.html
+                           http://forum.minecraftuser.jp/viewtopic.php?f=14&t=30945
+オリジナル版最終更新日:2016/6/18
 
 ※3Dモデルを含んでいます
 
@@ -20,13 +20,13 @@ Mizuno's 16 Craft_1.10
 
 
 Resolution:16x
-Compatible with Minecraft 1.10.x
-Designed by Mizuno
-Website:http://mizunomcmemo.blogspot.jp/p/resourcepack.html
-        http://forum.minecraftuser.jp/viewtopic.php?f=14&t=30945
-Last Updated: June 18 2016
+Compatible with Minecraft 1.11.x
+Original Designed by Mizuno
+Original Website:http://mizunomcmemo.blogspot.jp/p/resourcepack.html
+                 http://forum.minecraftuser.jp/viewtopic.php?f=14&t=30945
+Original Resource Last Updated: June 18 2016
 
-This pack has 3D moels.
+This pack has 3D models.
 
 This Resource Pack is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 When you distribute or redistribute this pack, do not put an affiliate links such as adfly.
