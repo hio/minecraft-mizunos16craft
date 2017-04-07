@@ -1,5 +1,5 @@
-REVISION = m1
-MCVERSION = 1.11
+REVISION = m2
+MCVERSION = 1.12
 OUTFILE = Mizunos-16-Craft_$(MCVERSION)$(REVISION).zip
 
 zip ?= zip

@@ -1,7 +1,7 @@
-Mizuno's 16 Craft_1.11 (非公式版)
+Mizuno's 16 Craft_1.12 snapshot (非公式版)
 
 解像度：16x
-対応バージョン：1.11.x
+対応バージョン：1.12 (snapshot)
 オリジナル版制作者： Mizuno
 オリジナル版配布ページURL：http://mizunomcmemo.blogspot.jp/p/resourcepack.html
                            http://forum.minecraftuser.jp/viewtopic.php?f=14&t=30945
@@ -20,7 +20,7 @@ Mizuno's 16 Craft_1.11 (非公式版)
 
 
 Resolution:16x
-Compatible with Minecraft 1.11.x
+Compatible with Minecraft 1.12 (snapshot)
 Original Designed by Mizuno
 Original Website:http://mizunomcmemo.blogspot.jp/p/resourcepack.html
                  http://forum.minecraftuser.jp/viewtopic.php?f=14&t=30945
