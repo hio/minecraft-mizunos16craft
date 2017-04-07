@@ -1,0 +1,112 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/torch_on_w",
+        "torch": "blocks/torch_on_lantern"
+    },
+    "elements": [
+        {
+            "from": [3,3,7],
+            "to": [5,13,9],
+            "shade": false,
+            "faces": {
+                "up": {
+                    "uv": [7,6,9,8],
+                    "texture": "#particle"
+                },
+                "down": {
+                    "uv": [7,14,9,16],
+                    "texture": "#particle"
+                }
+            }
+        },
+        {
+            "from": [3,3,6],
+            "to": [5,13,10],
+            "shade": false,
+            "faces": {
+                "west": {
+                    "uv": [6,6,10,16],
+                    "texture": "#particle"
+                },
+                "east": {
+                    "uv": [6,6,10,16],
+                    "texture": "#particle"
+                }
+            }
+        },
+        {
+            "from": [2,3,7],
+            "to": [6,13,9],
+            "shade": false,
+            "faces": {
+                "north": {
+                    "uv": [6,6,10,16],
+                    "texture": "#particle"
+                },
+                "south": {
+                    "uv": [6,6,10,16],
+                    "texture": "#particle"
+                }
+            }
+        },
+        {
+            "from": [0,3,6],
+            "to": [1,7,10],
+            "faces": {
+                "up": {
+                    "uv": [8.0,9.0,12.0,10.0],
+                    "texture": "#torch",
+                    "rotation": 90
+                },
+                "down": {
+                    "uv": [8.0,9.0,12.0,10.0],
+                    "texture": "#torch",
+                    "rotation": 90
+                },
+                "west": {
+                    "uv": [8.0,11.0,12.0,15.0],
+                    "texture": "#torch",
+                    "cullface": "east"
+                },
+                "east": {
+                    "uv": [8.0,11.0,12.0,15.0],
+                    "texture": "#torch"
+                },
+                "north": {
+                    "uv": [8.0,9.0,12.0,10.0],
+                    "texture": "#torch",
+                    "rotation": 90
+                },
+                "south": {
+                    "uv": [8.0,9.0,12.0,10.0],
+                    "texture": "#torch",
+                    "rotation": 90
+                }
+            }
+        },
+        {
+            "from": [0.5,4,7.5],
+            "to": [3.5,5,8.5],
+            "faces": {
+                "up": {
+                    "uv": [12.0,11.0,15.0,12.0],
+                    "texture": "#torch"
+                },
+                "down": {
+                    "uv": [12.0,11.0,15.0,12.0],
+                    "texture": "#torch"
+                },
+                "north": {
+                    "uv": [12.0,11.0,15.0,12.0],
+                    "texture": "#torch"
+                },
+                "south": {
+                    "uv": [12.0,11.0,15.0,12.0],
+                    "texture": "#torch"
+                }
+            }
+        }
+    ]
+}

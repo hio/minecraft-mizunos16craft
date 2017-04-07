@@ -1,0 +1,32 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/clock_00"
+    },
+    "overrides": [
+        { "predicate": { "time": 0.0000000 }, "model": "item/clock" },
+        { "predicate": { "time": 0.0416667 }, "model": "item/clock_01" },
+        { "predicate": { "time": 0.0833334 }, "model": "item/clock_02" },
+        { "predicate": { "time": 0.1250001 }, "model": "item/clock_03" },
+        { "predicate": { "time": 0.1666668 }, "model": "item/clock_04" },
+        { "predicate": { "time": 0.2083335 }, "model": "item/clock_05" },
+        { "predicate": { "time": 0.2500002 }, "model": "item/clock_06" },
+        { "predicate": { "time": 0.2916669 }, "model": "item/clock_07" },
+        { "predicate": { "time": 0.3333336 }, "model": "item/clock_08" },
+        { "predicate": { "time": 0.3750003 }, "model": "item/clock_09" },
+        { "predicate": { "time": 0.4166670 }, "model": "item/clock_10" },
+        { "predicate": { "time": 0.4583337 }, "model": "item/clock_11" },
+        { "predicate": { "time": 0.5000004 }, "model": "item/clock_12" },
+        { "predicate": { "time": 0.5416671 }, "model": "item/clock_13" },
+        { "predicate": { "time": 0.5833338 }, "model": "item/clock_14" },
+        { "predicate": { "time": 0.6250005 }, "model": "item/clock_15" },
+        { "predicate": { "time": 0.6666672 }, "model": "item/clock_16" },
+        { "predicate": { "time": 0.7083339 }, "model": "item/clock_17" },
+        { "predicate": { "time": 0.7500006 }, "model": "item/clock_18" },
+        { "predicate": { "time": 0.7916673 }, "model": "item/clock_19" },
+        { "predicate": { "time": 0.8333340 }, "model": "item/clock_20" },
+        { "predicate": { "time": 0.8750007 }, "model": "item/clock_21" },
+        { "predicate": { "time": 0.9166674 }, "model": "item/clock_22" },
+        { "predicate": { "time": 0.9583341 }, "model": "item/clock_23" }
+    ]
+}

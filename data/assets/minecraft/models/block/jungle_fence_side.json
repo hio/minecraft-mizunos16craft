@@ -1,0 +1,66 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "textures": {
+        "particle": "blocks/fence/fence_jungle"
+    },
+    "elements": [
+        {
+            "from": [7,11,0],
+            "to": [9,13,9],
+            "faces": {
+                "up": {
+                    "uv": [0,8,9,10],
+                    "texture": "#particle",
+                    "rotation": 90
+                },
+                "down": {
+                    "uv": [7,8,16,10],
+                    "texture": "#particle",
+                    "rotation": 90
+                },
+                "west": {
+                    "texture": "#particle"
+                },
+                "east": {
+                    "uv": [7,3,16,5],
+                    "texture": "#particle"
+                },
+                "north": {
+                    "uv": [10,3,12,5],
+                    "texture": "#particle",
+                    "cullface": "north"
+                }
+            }
+        },
+        {
+            "from": [8,9,1],
+            "to": [8.5,12,2],
+            "faces": {
+                "east": {
+                    "uv": [1,4,2,7],
+                    "texture": "#particle"
+                }
+            }
+        },
+        {
+            "from": [8,10,3],
+            "to": [8.5,12,4],
+            "faces": {
+                "east": {
+                    "uv": [3,4,4,6],
+                    "texture": "#particle"
+                }
+            }
+        },
+        {
+            "from": [7.5,8,2],
+            "to": [8,12,3],
+            "faces": {
+                "west": {
+                    "uv": [13,4,14,8],
+                    "texture": "#particle"
+                }
+            }
+        }
+    ]
+}

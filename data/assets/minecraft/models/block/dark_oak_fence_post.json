@@ -1,0 +1,36 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "textures": {
+        "particle": "blocks/fence/fence_dark_oak"
+    },
+    "elements": [
+        {
+            "from": [6,0,6],
+            "to": [10,16,10],
+            "faces": {
+                "up": {
+                    "uv": [11,1,15,5],
+                    "texture": "#particle",
+                    "cullface": "up"
+                },
+                "down": {
+                    "uv": [11,1,15,5],
+                    "texture": "#particle",
+                    "cullface": "down"
+                },
+                "west": {
+                    "texture": "#particle"
+                },
+                "east": {
+                    "texture": "#particle"
+                },
+                "north": {
+                    "texture": "#particle"
+                },
+                "south": {
+                    "texture": "#particle"
+                }
+            }
+        }
+    ]
+}
