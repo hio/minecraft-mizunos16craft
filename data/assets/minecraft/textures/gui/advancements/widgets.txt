@@ -1,0 +1,70 @@
+miz button bg c2c2c2 (HSL 0 0 76)
+miz button border 969696 (HSL 0 0 59)
+
+>>
+vanilla button bg c6c6c6 (HSL 0 0 78)
+vanilla button border (light) ffffff (HSL 0 0 100)
+vanilla button border (dark) 555555 (HSL 0 0 33)
+
+---
+
+vanilla advancement icons:
+
+dark gray  | 808080 | 636363 | 555555  // 128 99 85
+brown      | dba213 | aa7e0f | 493606
+light gray | ffffff | c6c6c6 | 555555  // 255 198 85
+
+brown = aa7e0f (HSL 43 91 67)
+
+>>
+
+miz dark gray bg: 636363 (HSL 0 0 39) (same as vanilla)
+miz dark gray border: 4c4c4c (HSL 0 0 30)
+
+miz brown bg    : aa7e0f (HSL 43 91 67) (same as vanilla)
+miz brown border: 83610b (HSL 43 92 51)
+
+miz light gray bg: c6c6c6 (HSL 0 0 78) (same as vanilla)
+miz light gray border: 999999 (HSL 0 0 60)
+
+>printf "%02x%02x%02x\n", map { $_*0x96/0xc2 } 0x63, 0x63, 0x63
+4c4c4c
+> printf "%02x%02x%02x\n", map { $_*0x96/0xc2 } 0xaa, 0x7e, 0x0f
+83610b
+> printf "%02x%02x%02x\n", map { $_*0x96/0xc2 } 0xc6, 0xc6, 0xc6
+999999
+
+new-base-bg.png PNG 72x24 RGBA
+min color = c8c8c9
+avg = 030302
+.
+new-base-frame.png PNG 74x26 RGBA
+min color = 8f8f90
+avg = 070706
+
+---------------------------------------------------
+
+# text bg
+
+dark gray | 808080 | 636363 | 555555
+brown     | dba213 | b98f2c | 493606
+blue      | 0489c1 | 036a96 | 012e40
+
+> printf "%02x%02x%02x\n", map { hex($_)*0x96/0xc2 } qw(63 63 63)
+4c4c4c
+> printf "%02x%02x%02x\n", map { hex($_)*0x96/0xc2 } qw(b9 8f 2c)
+8f6e22
+> printf "%02x%02x%02x\n", map { hex($_)*0x96/0xc2 } qw(03 6a 96)
+025173
+
+.
+text-bg.png PNG 198x18 RGBA
+min color = 838383
+avg = 040404
+python3 test.py text-frame.png
+.
+text-frame.png PNG 200x20 RGBA
+min color = 999999
+avg = 0e0e0e
+
+
