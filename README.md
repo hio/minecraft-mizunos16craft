@@ -3,6 +3,12 @@
 This is a Minecraft Resource pack.
 Originally designed and published by Mizuno.
 
+## Screenshots
+
+![colorful beds](screenshots/beds.png)
+![recipe-book](screenshots/recipe-book.png)
+![advancementsbeds](screenshots/advancements.png)
+
 ## Download
 
 Resource pack files can be retrieved from following page:
