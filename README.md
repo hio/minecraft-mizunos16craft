@@ -1,13 +1,24 @@
-# Mizuno's 16 craft (Unofficial Fork)
+# Mizuno's 16 craft (Unofficial Fork for Minecraft 1.12/1.11.2)
 
 This is a Minecraft Resource pack.
-Originally designed and distibuted by Mizuno.
+Originally designed and published by Mizuno.
 
 ## Download
 
 Resource pack files can be retrieved from following page:
 
 * https://github.com/hio/minecraft-mizunos16craft/releases
+
+
+## Updated materials
+
+* Advancement window. (1.12)
+* Colored beds. (1.12)
+* Recipe book window. (1.12)
+* Knowledge book item. (1.12)
+* Inventory window of shulker box. (1.11)
+* Statistics icons.
+
 
 ## Build resource pack by hand
 
@@ -19,11 +30,12 @@ some POSIX command-line tools are required:
 * make
 * zip
 * rsync
-* POSIX compatible shell
+* /bin/sh (POSIX compatible shell)
 * etc.
 
 Image files are edited with GIMP graphics editor.
 Files with extension ".xcf" are saved files by GIMP.
+
 
 ## License
 
