@@ -1,6 +1,6 @@
 REVISION  ?= m6dev
 MCVERSION ?= 1.12
-OUTFILE   ?= Mizunos-16-Craft_$(MCVERSION)$(REVISION).zip
+OUTFILE   ?= Mizunos-16-Craft-$(MCVERSION)-$(REVISION).zip
 
 gamedir ?= $(HOME)/.minecraft
 all_mcversions = \
@@ -36,7 +36,7 @@ _build:
 
 .PHONY: FORCE
 FORCE:
-_build/Mizunos-16-Craft_%.zip: FORCE | _build
+_build/Mizunos-16-Craft-%.zip: FORCE | _build
 	@set -e -u -x; \
 outname="$(@F:%.zip=%)"; \
 rm -f $@.tmp; \
@@ -57,7 +57,7 @@ build: _build/$(OUTFILE)
 build-all: $(all_mcversions:%=do-build-%)
 
 do-build-%: | _build
-	$(MAKE) MCVERSION=$(@:do-build-%=%) > _build/Mizunos-16-Craft_$(@:do-build-%=%)$(REVISION).log 2>&1
+	$(MAKE) MCVERSION=$(@:do-build-%=%) > _build/Mizunos-16-Craft-$(@:do-build-%=%)-$(REVISION).log 2>&1
 
 install:
 	cp "_build/$(OUTFILE)" "$(gamedir)/resourcepacks/$(OUTFILE)"
