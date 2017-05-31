@@ -5,9 +5,20 @@ Originally designed and published by Mizuno.
 
 ## Screenshots
 
+Beds (fixed up in m7dev):
+
 ![colorful beds](screenshots/beds.png)
-![recipe-book](screenshots/recipe-book.png)
-![advancementsbeds](screenshots/advancements.png)
+
+* white, orange, magenta, light blue / yellow, lime, pink, gray.
+* silver, cyan, purple, blue / brown, green, red, black.
+
+Recipe book:
+
+![recipe book](screenshots/recipe-book.png)
+
+Advancements:
+
+![advancements](screenshots/advancements.png)
 
 ## Download
 
