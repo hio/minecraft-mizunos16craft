@@ -10,7 +10,7 @@ Beds (fixed up in m7dev):
 ![colorful beds](screenshots/beds.png)
 
 * white, orange, magenta, light blue / yellow, lime, pink, gray.
-* silver, cyan, purple, blue / brown, green, red, black.
+* light gray, cyan, purple, blue / brown, green, red, black.
 
 Recipe book:
 
