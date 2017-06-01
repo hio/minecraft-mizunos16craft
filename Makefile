@@ -1,4 +1,4 @@
-REVISION  ?= m7dev
+REVISION  ?= m7
 MCVERSION ?= 1.12
 OUTFILE   ?= Mizunos-16-Craft-$(MCVERSION)-$(REVISION).zip
 

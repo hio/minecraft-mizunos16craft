@@ -5,7 +5,7 @@ Originally designed and published by Mizuno.
 
 ## Screenshots
 
-Beds (fixed up in m7dev):
+Beds:
 
 ![colorful beds](screenshots/beds.png)
 
