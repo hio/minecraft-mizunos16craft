@@ -3,7 +3,7 @@ import os
 import sys
 from PIL import Image
 from pathlib import Path
-from colors import colors
+from wool_colors import colors
 
 class BedPart:
 	def __init__(self, name, y1, y2, cap, whiten_ratio=0.0):

@@ -13,8 +13,9 @@ all_mcversions = \
 
 ZIP ?= zip
 SED ?= sed
+PYTHON ?= python3
 
-.PHONY: all build build-all purge
+.PHONY: all build build-all purge install inplace-build
 
 all: build
 
@@ -61,3 +62,6 @@ do-build-%: | _build
 
 install:
 	cp "_build/$(OUTFILE)" "$(gamedir)/resourcepacks/$(OUTFILE)"
+
+inplace-build:
+	cd data/assets/minecraft/textures/entity/bed && $(PYTHON) make-beds.py
