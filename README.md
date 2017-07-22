@@ -34,6 +34,7 @@ Resource pack files can be retrieved from following page:
 * Recipe book window. (1.12)
 * Knowledge book item. (1.12)
 * Inventory window of shulker box. (1.11)
+* Ocean Explorer Map and Woodland Explorer Map (1.11).
 * Statistics icons.
 
 
