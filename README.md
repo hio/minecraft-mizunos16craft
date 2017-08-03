@@ -1,4 +1,4 @@
-# Mizuno's 16 craft (Unofficial Fork for Minecraft 1.12/1.11.2)
+# Mizuno's 16 craft (Unofficial Fork for Minecraft 1.12.1/1.11.2)
 
 This is a Minecraft Resource pack.
 Originally designed and published by Mizuno.

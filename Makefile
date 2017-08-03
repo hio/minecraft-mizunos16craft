@@ -1,10 +1,10 @@
-REVISION  ?= m8
-MCVERSION ?= 1.12
+REVISION  ?= m9dev
+MCVERSION ?= 1.12.1
 OUTFILE   ?= Mizunos-16-Craft-$(MCVERSION)-$(REVISION).zip
 
 gamedir ?= $(HOME)/.minecraft
 all_mcversions = \
-	1.12   \
+	1.12.1 \
 	1.11.2 \
 	1.10.2 \
 	1.9.4  \
